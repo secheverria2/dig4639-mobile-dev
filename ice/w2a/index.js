@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 console.log("Hello World"); 
 
+=======
+var x = 0;
+console.log("Test");
+>>>>>>> 41965ee10b08e77bdb004c683fe44186a129778b
 function scopeDemo() {
     console.log(x)
     let a = 3, b = 4, c = 5;
@@ -14,7 +19,7 @@ function scopeDemo() {
 
 function runOnLoad()
 {
-    console.log(x);
+    // console.log(x);
     var submitButton = document.getElementById("submitButton");
     submitButton.addEventListener("click",onClick);
     var submitButton = document.getElementById("");
