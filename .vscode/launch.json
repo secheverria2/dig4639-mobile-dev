@@ -5,6 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "request": "launch",
+            "name": "Lab 1",
+            "program": "${workspaceFolder}/labs/1/index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
             "type": "chrome",
             "request": "attach",
             "name": "Attach to Chrome",
@@ -21,7 +30,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch W4 For Demo",
-            "program": "${workspaceFolder}/ice/w4/src/for.js",
+            "program": "${workspaceFolder}/labs/1/index.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -30,11 +39,6 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-<<<<<<< HEAD
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}/ice/w2a"
-            
-=======
             "url": "http://localhost:8000",
             "webRoot": "${workspaceFolder}/ice/w4/src",
             "trace":"verbose",
@@ -43,7 +47,6 @@
             "sourceMapPathOverrides": {
               "*": "${webRoot}/*"
             }
->>>>>>> 64d01955e21d788072f8747da3667ef80b5707d2
         }
     ]
 }
