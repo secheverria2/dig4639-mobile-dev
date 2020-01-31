@@ -30,7 +30,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch W4 For Demo",
-            "program": "${workspaceFolder}/labs/1/index.js",
+            "program": "${workspaceFolder}/ice/w2a/node_index.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
