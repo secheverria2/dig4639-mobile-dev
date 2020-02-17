@@ -2,36 +2,32 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function NameBadge(){
-return(
-  <p> the sum is {10+10}</p>
-)
+function NameBadge(props) {
+  console.log(props);
+  return ( 
+    <p>My name is {props.name}</p>
+  )
 }
 
-/*class NameBadge extends React.Component{
-  constructor(props){
-    super(props);
+class App extends React.Component {
+  clickHandler(e) {
+    alert("Clicked +");
+    console.log(this);
+    console.log(e);
   }
-  render(){
-    return (
-     <p> My name is {this.props.name}</p>
-    )
-  }
-}
-*/
-class App extends React.Component{
-  constructor(props){
-    super(props);
-  }
-  render(){
+  render() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <NameBadge name ="Veruska"/> 
+        <div  onClick={this.clickHandler}>
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <p>
-         Hello World
+          Hello World 
         </p>
+        <NameBadge name="John"/>
+        <NameBadge name="Ana"/>
+        <NameBadge name="June"/>
         <a
           className="App-link"
           href="https://reactjs.org"
