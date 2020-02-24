@@ -4,11 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Lab 1",
-            "program": "${workspaceFolder}/labs/1/index.js",
+            "program": "${workspaceFolder}/demo/w8a/index.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -17,7 +18,7 @@
             "type": "node",
             "request": "launch",
             "name": "Lab 1",
-            "program": "${workspaceFolder}/labs/1/index.js",
+            "program": "${workspaceFolder}/demo/classes.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
