@@ -1,0 +1,16 @@
+{
+    "cards": [
+        {
+            "title": "Card 1",
+            "content": "Have a good day."
+        },
+        {
+            "title": "Card 2",
+            "content": "Be happy!"
+        },
+        {
+            "title": "Card 3",
+            "content": "Live a little."
+        }
+    ]
+}
