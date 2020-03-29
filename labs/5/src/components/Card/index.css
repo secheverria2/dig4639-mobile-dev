@@ -1,10 +1,10 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(122, 115, 121, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(207, 172, 202, 0.808);
     max-width: 80%;
     margin: auto;
     text-align: center;
     padding: 1em;
-    color: pink; 
+    color: black;
   }
   
   .close {
