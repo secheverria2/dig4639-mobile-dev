@@ -1,0 +1,87 @@
+[
+    {
+      "question": "What is America's favorite candy?",
+      "possibleAnswers":
+      [
+        {"text":"Reese's Peanut Butter Cups",
+        "correct":true },
+        {"text":"M&M's",
+          "correct":false
+        },
+        {"text":"Harbio Gummy Bears",
+          "correct":false
+        },
+        {"text":"Blowpop Lollipops",
+          "correct": false
+        }
+      ]
+    },
+{
+    "question": "Which one is a sour candy brand?",
+    "possibleAnswers":
+    [
+      {"text":"Pixie Stix",
+      "correct":false },
+      {"text":"Warhead Extremes",
+        "correct":true
+      },
+      {"text":"Tootsie Roll",
+        "correct":false
+      },
+      {"text":"Jolly Rancher",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which candy includes dipping into powdered sugar?",
+    "possibleAnswers":
+    [
+      {"text":"Twix",
+      "correct":false },
+      {"text":"Skittles",
+        "correct":false
+      },
+      {"text":"Baby Bottle Pop",
+        "correct":true
+      },
+      {"text":"Laffy Taffy",
+        "correct": false
+      }
+    ]
+  }, 
+  {
+    "question": "What chocolate is filled with coconut goodness?",
+    "possibleAnswers":
+    [
+      {"text":"Hershey's Kisses",
+      "correct":false },
+      {"text":"Almond Joy",
+        "correct":true
+      },
+      {"text":"Butterfinger",
+        "correct":false
+      },
+      {"text":"Milkyway",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "Which candy turns into gum?",
+    "possibleAnswers":
+    [
+      {"text":"Airheads",
+      "correct":false },
+      {"text":"Twizzlers",
+        "correct":false
+      },
+      {"text":"Lemonheads",
+        "correct":false
+      },
+      {"text":"Razzels",
+        "correct": true
+      }
+    ]
+  }
+]
