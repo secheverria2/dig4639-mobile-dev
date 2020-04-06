@@ -102,41 +102,34 @@ class TitlePage extends React.Component {
 
       render(){
         return (
-        <View style = {styles.sweets}>
+        <View style = {styles.container}>
 
-        <Text style={styles.candyquiz}>Candy Quiz</Text>
+        <Text style={styles.Text}>Candy Quiz</Text>
 
 
         <TitlePage>Candy Quiz</TitlePage>
 
-        <Text style={styles.sims}>My favorite video game is Sims 4. I love it because it gives me the opportunity to live out my dreams virtually. 
-        Building and designing dream homes on Sims is something I enjoy doing and find relaxing. Most of all, I like how closely it mirros real life.   </Text>
+        
         </View>
   
-    );
-     }
-  
-    }
-
+  );
+}
+}
     export default App;
 
-    const styles = StyleSheet.create({
-      sweets: {
-        flex: 1,
-        alignItems: 'center', 
-        backgroundColor: "#E8EFF5", 
-        justifyContent: 'center', 
-      }, 
-      candyquiz:{
-  
-        color: "#FF48A5", 
-        fontSize: "28px", 
-      }, 
-      sims: {
-        backgroundColor: "#E8EFF5",
-        textAlign: "center", 
-        marginRight: "200px",
-        marginLeft:"200px",
 
-      }, 
-    }); 
+  const styles = StyleSheet.create({
+
+   container: {
+      flex: 1,
+      backgroundColor: '#E8EFF5',
+      alignItems: 'center',
+     justifyContent: 'center',
+   },
+ 
+   Text: {
+    color:"#FF48A5",
+    fontSize: "28px", 
+  },
+ 
+});
